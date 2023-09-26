@@ -12,3 +12,8 @@ I want to be able to add a new note
 As a User
 So that I can see my notes
 I want to be able to see a list of my notes
+
+As a User
+So that my notes look nice
+I want to be able to correct capitilisation and punctuation on them
+
