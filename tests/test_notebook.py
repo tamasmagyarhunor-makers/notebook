@@ -15,3 +15,17 @@ def test_add_one_note():
 
     assert notebook.contents[0] == 'entry 1'
     assert 'entry 1' in notebook.contents
+
+def test_add_one_note_with_actual_and_expected():
+    # input output
+    # setup
+    notebook = Notebook()
+
+    # act / action
+    notebook.add('entry 1')
+
+    actual = notebook.contents
+    expected = ['entry 1']
+
+    # assertion
+    assert actual == expected
